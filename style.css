@@ -40,6 +40,7 @@ header {
     color: black;
     transition: 0.5s;
 }
+
 section {
     padding: 100px 200px;
 }
@@ -143,8 +144,12 @@ section {
 
 .card .icon {
     color: #3a6cf4;
+    display: flex;
+    text-align:center;
+    justify-content: center;
     font-size: 8em;
     text-align: center;
+    width:auto;
 }
 
 .info {
@@ -174,11 +179,12 @@ section {
     overflow: hidden;
     border-radius: 10px;
     margin: 20px;
-    transition: 0.7s ease;
+    transition: 1s ease;
 }
 
 .project-card:hover {
-   transform: scale(1.1);
+
+   transform: scale(1.2);
 }
 
 .project-card:hover .project-image {
