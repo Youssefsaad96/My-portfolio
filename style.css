@@ -121,11 +121,10 @@ section {
 }
 
 .content {
-    /* display: flex;
+    display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap; */
-  padding: 10px 30px 10px 30px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -136,7 +135,7 @@ section {
     padding: 10px;
     margin: 15px;
     transition: 0.7s ease;
-
+    flex: 1 1 160px;
 }
 
 .card:hover {
@@ -166,7 +165,6 @@ section {
 
 .projects {
     background-color: #000016;
-
 }
 
 .projects .content{
@@ -182,7 +180,6 @@ section {
     border-radius: 10px;
     margin: 20px;
     transition: 1s ease;
-    /* padding: 10px 20px 10px 20px; */
 }
 
 .project-card:hover {
